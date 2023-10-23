@@ -1,0 +1,272 @@
+* {
+    background-color: rgb(32, 33, 36);
+    font-family: roboto;
+    font-size: 13px;
+}
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+.header {
+    z-index: 2;
+    height: 7vh;
+}
+
+.container {
+
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.gmail {
+    text-decoration: none;
+    color: white;
+}
+
+.gmail:hover {
+    text-decoration: underline;
+}
+
+.image {
+    text-decoration: none;
+    color: white;
+}
+
+.image:hover {
+    text-decoration: underline;
+}
+
+.productosgoogle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.productosgoogle:hover {
+    background-color: rgb(95, 99, 104);
+}
+
+.cuentagoogle {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+
+main {
+    position: relative;
+    z-index: 1;
+    top: 160px;
+    height: 30vh;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.lnXdpd {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    padding: 5px 8px 0 14px;
+}
+
+.buscador {
+    border: 1px solid rgb(95, 99, 104);
+    border-radius: 20px;
+    height: 46px;
+    width: 582px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador:hover {
+    background-color: rgb(95, 99, 104);
+}
+
+.imagen {
+    width: 25px;
+    height: 25px;
+}
+
+.imagen2 {
+   
+    width: 15px;
+    height: 15px;
+}
+
+input {
+
+    border: 0;
+    height: 25px;
+    width: 450px;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.bottom {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.bottomsearch {
+    text-decoration: none;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0px 16px;
+
+    min-width: 54px;
+    height: 36px;
+    text-align: center;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bottomluck {
+    text-decoration: none;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0px 16px;
+
+    min-width: 54px;
+    height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bottomluck:hover {
+    border-color: rgb(95, 99, 104);
+}
+
+.bottomsearch:hover {
+    border-color: rgb(95, 99, 104);
+}
+
+
+
+.footer0 {
+
+
+    margin: 0;
+    border: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #171717;
+    padding: 15px 30px;
+
+    font-size: 15px;
+}
+
+
+#footer1 {
+    gap: 20px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #9aa0a6;
+    border-bottom: 1px solid #3c4043;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: start;
+    gap: 20px;
+}
+
+.footer2 {
+
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+.footer3:hover {
+    text-decoration: underline;
+}
+
+.footer3 {
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #9aa0a6;
+    align-content: center;
+}
+
+.footer4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: end;
+    gap: 20px;
+}
+
+.footer5 {
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #9aa0a6;
+    align-content: center;
+}
+
+
+.footer5:hover {
+    text-decoration: underline;
+}
